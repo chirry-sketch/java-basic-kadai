@@ -9,12 +9,17 @@ public class Kato_Chapter17 {
 	
 	public void commonIntroduce() {
 		System.out.println(famiryName);
+		System.out.println(address);
 	}
 	
 	public void eachIntroduce() {
 	}
 	
 	public void execIntroduce() {
+			System.out.println("名前は" + famiryName + givenName + "です");
+			System.out.println("住所は" + address + "です");
+			eachIntroduce();
+			System.out.println();
 	}
 	
 	
